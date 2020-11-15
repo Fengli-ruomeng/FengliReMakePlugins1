@@ -1,0 +1,7 @@
+name: GfpRemk
+version: ${project.version}
+main: fuckingcom.fengli.gfpremk.GfpRemk
+api-version: 1.13
+commands:
+  DUtimatetagRemake:
+    description: Fengli remake China_DUtimatetagRemake
