@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web IRC Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nickname-container">
+        <input type="text" id="nickname-input" placeholder="Enter your nickname">
+        <button id="set-nickname-button">Set Nickname</button>
+    </div>
+
+    <div id="chat-container" style="display: none;">
+        <div id="messages"></div>
+        <input type="text" id="message-input" placeholder="Type your message...">
+        <button id="send-button">Send</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
